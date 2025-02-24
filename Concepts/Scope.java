@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Scope{
     public static void main(String[] args) {
- // note anything initilize outside the block that use in inside the block but that is initize the onside the vlog that not initlize the outside the block z
+ // note anything initilize outside the block that use in inside the block but that is initize the onside the vlog that not use the outside the block 
    
 int a = 10;
 int b = 30;  // in function not add same  refrence variable  in one function like i will not decalre any variable that have int a=2;

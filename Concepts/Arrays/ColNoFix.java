@@ -1,0 +1,17 @@
+import java.util.Scanner;  // Import Scanner class
+
+public class ColNoFix {  // Removed parentheses
+    public static void main(String[] args) {
+        int arr[][]= {
+            {1, 2, 3, 4}, //here col number no fixed compair to the row
+            {2, 3, 4},
+            {2, 1}
+        };
+        for(int row = 0; row < arr.length; row++){
+for(int col =0; col<arr[row].length; col++){
+    System.out.print(arr[row][col] + " ");
+}
+System.out.println();
+        }
+    }
+}

@@ -1,0 +1,1 @@
+Array = all variable or value store in array is the must be same  

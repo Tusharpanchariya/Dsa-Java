@@ -1,10 +1,12 @@
 // in switch statements you can jump various statement based on your expression
 import java.util.Scanner;
 
-public class Main{
+public class Nestedswitch{
     public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
-      String fruit = in.next();
+      String empId = in.next();
+      String deaprtment = in.next();
+      
     
 switch (fruit){
   case "mango"-> System.out.println("king ");
